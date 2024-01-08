@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #434343;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(255, 177, 215);
+    padding: 10px 20px 0px;
+}
+
+#linksMenu {
+    list-style-type: none;
+}
+
+#linksMenu li {
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: rgb(255, 248, 201);
+    min-height: 150px;
+}
+
+.header img{
+    margin: 30px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.content table thead{
+    background-color: rgb(188, 188, 225);
+}
+
+.content table tbody tr:nth-child(even) {
+    background-color: rgb(188, 188, 225);
+}
+
+#contact li{
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+#fotoEquipe {
+    padding-left: 200px;
+}
+
+.footer {
+    background-color: rgb(255, 248, 201);
+    min-height: 150px;
+}
+
+
+#footer li {
+    padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    list-style: none;
+}
