@@ -60,6 +60,20 @@ body {
     background-color: rgb(188, 188, 225);
 }
 
+.content fieldset{
+    max-width: 400px;
+    
+}
+.content input{
+    width: 250px;
+}
+
+.content button{
+    margin: 5px;
+}
+
+
+
 #contact li{
     list-style: none;
     padding-bottom: 5px;
